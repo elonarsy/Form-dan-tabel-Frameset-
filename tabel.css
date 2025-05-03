@@ -1,0 +1,68 @@
+/*css untuk form dan tabel*/
+body{ 
+    background-image: url(bga.jpg); /* memasukkan foto utk bg*/
+    background-position: center; /* mengatur posisi bg*/
+    background-attachment: fixed; /* agar bg tdk bergerak */
+    height: 1000px; /* untuk tinggi backgrounf*/
+    background-size:cover; /* untuk menyesuaikan ukuran bg dgn ukuran layar*/
+    justify-items: center; /* mengatur semua elemen*/
+    position: fixed; /*agar elemen tdk bergerak*/
+}
+
+h1{
+    font-family: 'Brush Script MT', cursive; /*mengganti font*/
+    font-size: 70px; /* menagtur ukuran font */
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 10px palevioletred; /*memberikan bayangan pada font*/
+    box-shadow: 0 0 10px palevioletred; /*memberikan bayangan pada box*/
+    text-align: center; /*mengatur posisi tulisan*/
+    width: 1000px; /*mengatur lebar tulisan*/
+    font-weight: lighter;
+    margin-top: 10px;
+}
+
+table, td, tr{
+    border: 2px solid palevioletred; /*mengatur border tabel*/
+    border-collapse: collapse; /*menghilangkan jarak antar border*/
+    padding: 15px; /*mengatur jarak antar border*/
+    color: rgb(0, 0, 0); /*warna teks*/
+    background-color: rgb(255, 255, 255); /*warna bg tabel*/
+    margin-left: 50%; /*untuk memberikan jarak dari kiri*/
+    margin-top: -45%; /*untuk memberikan jarak dari atas*/
+    text-align: center; /*mengatur posisi tulisan*/
+    width: 200px; /*mengatur lebar tabel*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+}
+
+thead tr { /* Header tabel di tengah */
+    text-align: center;
+}
+  
+td {  /* kolom lain tetap rata kiri */
+    text-align: left;
+}
+
+.kanan{ /*mengatur posisi tulisan*/
+    margin-left: 40%;
+}
+
+form{ /*mengatur form*/
+    margin-top: 9%;
+    margin-left: -50%;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px palevioletred;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: palevioletred;
+}
+
+p{
+    text-align: center;
+    font-weight: bold;
+   
+}
+
+::placeholder{ /*mengatur tulisan pada placeholder di input*/
+    font-style: italic;
+}

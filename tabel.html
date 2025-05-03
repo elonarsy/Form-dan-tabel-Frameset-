@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> form dan tabel elona </title>
+    <link rel="stylesheet" type="text/css" href="tabel.css"> <!-- link ke file css -->
+</head>
+
+<body>
+    <h1> Data Mahasiswa </h1> <!-- Judul Halaman -->
+    <form> <!--form untuk input Jurusan-->
+    <p> Formulir </p>
+
+    <label for="Nama">Nama</label> <br> <!-- Label untuk input nama -->
+    <input type="text" name="Nama" placeholder="ex: nana"> <br> <!-- Input untuk nama -->
+  
+    <br>
+    <label for="NPM"> NPM </label> <br> <!-- Label untuk input npm -->
+    <input type="text" name="NPM" placeholder="ex: 062430701376"> <br> <!-- Input untuk npm -->
+   
+    <br>
+    <label for="Kelas"> Kelas </label> <br> <!-- Label untuk input kelas -->
+    <input type="text" name="Kelas" placeholder="ex: 2CA"> <br> <!-- Input untuk kls -->
+   
+    <br>
+    <label for="Email"> Email </label> <br> <!-- Label untuk input email -->
+    <input type="email" name="Email" placeholder="ex: na@gmail.com"> <br> <!-- Input untuk email -->
+   
+    <br>
+    <label for="Jurusan"> Jurusan: </label> <br> <!-- label untuk input jurusan -->
+    <select name="Jurusan"> <!-- dropdowm untuk memilih -->
+      <option value="Jurusan1"> Teknik Komputer </option> <!-- pilihan -->
+      <option value="Jurusan2"> Teknik Mesin </option>
+      <option value="Jurusan3"> Manajemen Informatika </option>
+    </select> <br>
+    
+    <br>
+    <label for="JenisKelamin"> Jenis Kelamin </label> <br> <!-- Label untuk input jenis kelamin -->
+    <input type="radio" name="LakiLaki"> Laki-Laki</input> <!-- input untuk laki-laki -->
+    <input type="radio" name="Perempuan"> Perempuan </input> <br> <!-- input untuk perempuan -->
+  
+    <br>
+    <div class="kanan"> <!-- div untuk mengatur posisi -->
+     <input type="reset" name="batal" value="Batal"> </input> <!-- Tombol untuk mereset form -->
+     <input type="submit" name="simpan" value="Simpan"> </input> <!-- Tombol untuk menyimpan form -->
+    </div> 
+    </form>
+ 
+        <table> <!-- Tabel untuk menampilkan Jurusan-->
+            <tr> <!-- Baris untuk header tabel -->
+                <td> No </td>
+                <td> Nama </td>
+                <td> Kelas </td>
+            </tr>
+        
+            <tr> <!-- Baris untuk Jurusan mahasiswa -->
+                <td> 1 </td>
+                <td> Ade </td>
+                <td> 2CA </td>
+            </tr>
+        
+            <tr>
+                <td> 2 </td>
+                <td> Arqeysa </td>
+                <td> 2CA </td>
+            </tr>
+        
+            <tr>
+                <td> 3 </td>
+                <td> Elona </td>
+                <td> 2CA </td>
+            </tr>
+    
+            <tr>
+                <td>  4  </td>
+                <td> Iga  </td>
+                <td>  2CA </td>
+            </tr>
+    
+            <tr>
+                <td>  5  </td>
+                <td>  Mayang  </td>
+                <td>  2CA  </td>
+            </tr>
+    
+            <tr>
+                <td>  6  </td>
+                <td>  Muthia  </td>
+                <td>  2CA  </td>
+            </tr>
+    
+            <tr>
+                <td> 7  </td>
+                <td> Ica  </td>
+                <td> 2CA </td>
+            </tr>
+            </div>
+        </table>
+        
+</body>
+</html>

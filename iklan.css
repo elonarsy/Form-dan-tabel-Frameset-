@@ -1,0 +1,33 @@
+body{
+    background: linear-gradient(20deg, #efa8ce 0%, rgb(255, 255, 255) 100%); /* agar warnany gradasi, 20 deg itu untuk mengatur arah*/
+    background-attachment: fixed; /*agar bg tdk bergerak*/
+}
+
+h1{
+    color: #ba0f3a;
+    text-shadow: 0 0 20px #ba0f3a;
+    text-align: center;
+}
+
+h5{
+    color: palevioletred;
+    text-align: center;
+    font-family: monospace;
+}
+
+p{
+    color: #ba0f3a;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    border: #e85d80 solid 5px;
+    box-shadow: 0 0 10px brown;
+}
+
+hr{
+    height: 5px; /*tinggi garis*/
+    background-color: #ba0f3a;
+}
